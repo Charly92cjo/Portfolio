@@ -1,0 +1,10 @@
+.container-header{
+    background-color: rgba(0, 0, 0,0.05);
+}
+.container-header h1 {
+    font-family: 'Inter', sans-serif;;
+}
+.container-header .titulo {
+    font-weight: 600;
+   
+}

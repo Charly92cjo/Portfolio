@@ -1,0 +1,28 @@
+.container-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img {
+    animation: turn1 10s linear infinite;
+  }
+  @keyframes turn1 {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+  .img-pri {
+    position: absolute;
+    max-width: 350px;
+    border-radius: 50% !important;
+    width: 20% !important;
+  
+    /* filter: grayscale(1); */
+  }
+  .img-sec {
+    margin: 0 !important;
+    width: 400px;
+   filter: opacity(80%);
+  }
+  

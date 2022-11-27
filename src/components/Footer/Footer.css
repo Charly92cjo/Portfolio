@@ -1,0 +1,75 @@
+.container-footer {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: "Inter", sans-serif;
+}
+.bi {
+  margin: 0, 150px;
+}
+
+.bi-envelope-fill {
+  color: #ca372d;
+}
+.bi-facebook {
+  color: #3b5998;
+  width: 80px;
+}
+.bi-github {
+  color: #dddddd;
+}
+
+.bi-linkedin {
+  color: #0e76a8;
+}
+/* .container-footer i {
+  transition: all ease-in-out 500ms;
+  cursor: pointer;
+  margin: 0 20px;
+} */
+.container-footer i:hover {
+  transform: scale(2) !important;
+  margin: 15px;
+  padding: 15px;
+  /* background: black; 
+   border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0); */
+}
+
+.heart:hover {
+  font-size: 20px;
+  padding: 0;
+}
+
+  .col {
+    margin-bottom: 150px;
+  }
+
+.color-mail {
+  background-color: #bb001b;
+  font-size: 40px;
+  margin: 5px;
+}
+.color-linkedin {
+  background-color: #0e76a8;
+  font-size: 40px;
+  margin: 5px;
+}
+.color-github {
+  background-color: #161b22;
+  font-size: 40px;
+  margin: 5px;
+}
+.color-mail:hover,
+.color-github:hover,
+.color-linkedin:hover {
+  scale: 1.5;
+}
+.text-danger{
+  color: #ca372d !important;
+  background-color: #3b5998;
+}
+
+
+.navbar .fixed-bottom .bg-black{
+  margin-bottom: 40px !important;
+  translate: 40px bottom;
+}

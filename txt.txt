@@ -1,0 +1,5 @@
+yarn add @fortawesome/react-fontawesome@latest
+
+agregar helmet react
+purgar bootstrap con sass
+corregir el navbar
